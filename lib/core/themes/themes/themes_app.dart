@@ -27,7 +27,8 @@ abstract class ThemeApp{
         size: 33
       ),
         unselectedIconTheme: IconThemeData(
-            size: 33
+            size: 33,
+          color:ColorApp.greyColor
         )
     )
   );

@@ -17,11 +17,15 @@ abstract class StylesApp{
       fontWeight: FontWeight.w700,
       color: ColorApp.black
   );
-  static const TextStyle dateStyle=TextStyle(fontSize: 14,color: Colors.grey,fontWeight: FontWeight.w500);
+  static const TextStyle dateStyle=TextStyle(fontSize: 18,color: Colors.grey,fontWeight: FontWeight.w500);
   static const TextStyle bodyTextStyle=TextStyle(
       fontSize: 12,
       fontWeight: FontWeight.w600,
       color: ColorApp.black
+  );
+  static const TextStyle labelTextForm=TextStyle(
+    fontSize: 12,
+    color: Colors.black
   );
 
   //Dark

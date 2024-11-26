@@ -5,8 +5,8 @@ import 'package:todo_app/Features/Home/presentation/views/widgets/add_button_she
 import 'package:todo_app/core/themes/color/color_app.dart';
 
 class HomeScreen extends StatefulWidget {
+  static const String routeName='home';
   const HomeScreen({super.key});
-
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
@@ -63,6 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       backgroundColor: Theme.of(context).primaryColor,
       child: Icon(Icons.add,size: 30,color: ColorApp.white,),
+
       onPressed: (){
         AddButtonsheet.show(context);
       }
