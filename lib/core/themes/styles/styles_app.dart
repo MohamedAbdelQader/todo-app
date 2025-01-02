@@ -10,7 +10,7 @@ abstract class StylesApp{
   static const TextStyle titlesTextStyle=TextStyle(
       fontSize: 27,
       fontWeight: FontWeight.bold,
-      color: ColorApp.primaryColor,
+      color: ColorApp.lightPrimaryColor,
   );
   static const TextStyle bottomSheetTitle=TextStyle(
       fontSize: 18,
@@ -27,6 +27,8 @@ abstract class StylesApp{
     fontSize: 12,
     color: Colors.black
   );
+  static const TextStyle unselectedCalenderDayStyle =TextStyle(color: Colors.black,fontWeight: FontWeight.bold, fontSize: 15);
+  static const TextStyle selectedCalenderDayStyle =TextStyle(color: ColorApp.lightPrimaryColor,fontWeight: FontWeight.bold, fontSize: 15);
 
   //Dark
 

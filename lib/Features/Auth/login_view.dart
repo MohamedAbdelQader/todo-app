@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app/Features/Auth/Widgets/login_body/login_body.dart';
-
+import 'package:todo_app/core/constants/app_images.dart';
 import '../../core/Shared Widgets/custom_auth_appbar.dart';
-
 class LoginView extends StatelessWidget {
   static const String routeName='login';
   const LoginView({super.key});
@@ -13,7 +12,7 @@ class LoginView extends StatelessWidget {
       decoration: BoxDecoration(
           color: Colors.white,
           image: DecorationImage(
-              image: AssetImage("assets/back.png"),
+              image: AssetImage(AppImages.background),
               fit: BoxFit.fill
           )
       ),

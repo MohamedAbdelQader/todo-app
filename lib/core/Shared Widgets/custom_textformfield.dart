@@ -49,7 +49,7 @@ class _CustomTextformfieldState extends State<CustomTextformfield> {
                 });
               },
               icon: Icon(widget.isObscure ? Icons.visibility_outlined : Icons
-                  .visibility_off_outlined, color: ColorApp.primaryColor,
+                  .visibility_off_outlined, color: ColorApp.lightPrimaryColor,
                 size: 30,))
               : null
       ),

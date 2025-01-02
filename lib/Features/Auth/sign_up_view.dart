@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app/core/Shared%20Widgets/custom_auth_appbar.dart';
+import 'package:todo_app/core/constants/app_images.dart';
 
 import 'Widgets/signup_body/signup_body.dart';
 
@@ -13,7 +14,7 @@ class SignUpView extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white,
         image: DecorationImage(
-          image: AssetImage("assets/back.png"),
+          image: AssetImage(AppImages.background),
           fit: BoxFit.fill
         )
       ),
